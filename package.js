@@ -15,7 +15,9 @@ Package.on_use(function (api){
   // https://github.com/vitalets/x-editable/issues/395
 
   //NOTE: non-standard customizable bootstrap!
-  api.use("shilman80:meteor-bootstrap");
+  //api.use("mizzao:bootstrap-3");
+  //api.use("shilman80:bootstrap");
+  api.use("shilman80:bootstrap-3");
 
   //x-editable
   api.addFiles('lib/bootstrap-editable/css/bootstrap-editable.css', 'client');
