@@ -30,11 +30,11 @@ Package.on_use(function (api){
   api.addFiles('lib/address/address.js', 'client', {bare:true});
 
   //wysihtml5
-  api.addFiles('lib/wysihtml5/wysihtml5.js', 'client', {bare:true});
-  api.addFiles('lib/wysihtml5/bootstrap-wysihtml5-0.0.2/wysiwyg-color.css', 'client');
-  api.addFiles('lib/wysihtml5/bootstrap-wysihtml5-0.0.2/wysihtml5-0.3.0.js', 'client', {bare:true});
-  api.addFiles('lib/wysihtml5/bootstrap-wysihtml5-0.0.2/bootstrap-wysihtml5-0.0.2.css', 'client');
-  api.addFiles('lib/wysihtml5/bootstrap-wysihtml5-0.0.2/bootstrap-wysihtml5-0.0.2.js', 'client', {bare:true});
+  // api.addFiles('lib/wysihtml5/wysihtml5.js', 'client', {bare:true});
+  // api.addFiles('lib/wysihtml5/bootstrap-wysihtml5-0.0.2/wysiwyg-color.css', 'client');
+  // api.addFiles('lib/wysihtml5/bootstrap-wysihtml5-0.0.2/wysihtml5-0.3.0.js', 'client', {bare:true});
+  // api.addFiles('lib/wysihtml5/bootstrap-wysihtml5-0.0.2/bootstrap-wysihtml5-0.0.2.css', 'client');
+  // api.addFiles('lib/wysihtml5/bootstrap-wysihtml5-0.0.2/bootstrap-wysihtml5-0.0.2.js', 'client', {bare:true});
 
   //override image paths
   api.addFiles('path-override.css', 'client');
